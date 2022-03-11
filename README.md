@@ -54,7 +54,7 @@ and select the most likely label with argmax(softmax_outputs)
 ## Use cases
 
 * Image, Video, Sound recognition
-* Image, Video, Sound generation
+* Image, Video, Sound generation (flip the ConvNet !)
 
 ## Credits
 
