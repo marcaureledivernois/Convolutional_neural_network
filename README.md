@@ -47,7 +47,7 @@ Dropout forces an artificial neural network to learn multiple independent repres
 Dropout is a vital feature in almost every state-of-the-art neural network implementation.
 To perform dropout on a layer, you randomly set some of the layer’s values to 0 during forward propagation.
 
-* Probability Conversion
+## 4. Probability Conversion
 At the very end of our network (the tail), we’ll apply a softmax function to convert the outputs to probability values for each class.
 and selection the most likely label with argmax(softmax_outputs)
 
