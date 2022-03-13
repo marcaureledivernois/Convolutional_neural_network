@@ -158,7 +158,7 @@ class Preprocessor:
 # class for loading our saved model and classifying new images
 class LiteOCR:
 
-    def __init__(self, fn="alpha_weights.pkl", pool_size=2):
+    def __init__(self, fn=os.path.join(os.getcwd(), 'app', 'model', 'alpha_weights.pkl'), pool_size=2):
         # load the weights from the pickle file and the meta data
         [weights, meta] = pickle.load(open(fn, 'rb'),
                                       encoding='latin1')  # currently, this class MUST be initialized from a pickle file
@@ -220,7 +220,7 @@ class LiteCNN:
         X = h
         h = self.flatten_layer(X, layer_i=7);
         X = h;
-        h = self.dense_layer(X, fully, layer_i=10);
+        h = self.dense_layer(X, layer_i=10);
         X = h
         h = self.softmax_layer2D(X);
         X = h
