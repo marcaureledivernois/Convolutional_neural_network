@@ -59,4 +59,4 @@ and select the most likely label with argmax(softmax_outputs)
 ## Credits
 
 * Siraj Raval
-* [greydanus](https://github.com/greydanus/pythonic_ocr)
+* Disclaimer : Code is used as an illustration of the README theory file. Code has been forked from [greydanus](https://github.com/greydanus/pythonic_ocr). I mainly corrected/updated it to make it work on my computers.
